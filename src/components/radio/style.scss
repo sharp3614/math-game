@@ -1,0 +1,16 @@
+input[type="radio"] {
+  position: absolute;
+  display: none;
+}
+label {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+input[type="radio"]:checked + label::before {
+  position: absolute;
+  content: "✓";
+  right: -5vw;
+  top: -1vw;
+}

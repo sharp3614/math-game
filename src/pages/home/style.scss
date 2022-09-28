@@ -1,0 +1,35 @@
+.math_game_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 3vw;
+  color: red;
+  .header_line {
+    width: 50%;
+  }
+}
+.dash_container {
+  position: relative;
+  max-width: 100%;
+  height: 60vh;
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: #fff;
+  font-size: 4vw;
+  .total_score {
+    position: absolute;
+    list-style: none;
+    left: 5%;
+  }
+  .transactions {
+    position: absolute;
+    color: white;
+    list-style: none;
+    right: 10%;
+  }
+}

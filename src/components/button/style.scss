@@ -1,0 +1,27 @@
+.start {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 3vw;
+  .btn_start svg {
+    position: absolute;
+    width: 20vw;
+    fill: #fff;
+    &:hover {
+      fill: rgb(123, 118, 118);
+    }
+  }
+  .btn_start {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Handlee";
+    border: none;
+    &:hover {
+      color: rgb(123, 118, 118);
+    }
+  }
+}
