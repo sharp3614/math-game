@@ -24,7 +24,7 @@ const Home = () => {
                     <Radio radioTitle="Bölme" radioId="bol" radioName="choice" />
                 </div>
             </div>
-            <Button buttonTitle="Başla" />
+            <Button buttonTitle="Başla" path="/game" />
         </>
     )
 }

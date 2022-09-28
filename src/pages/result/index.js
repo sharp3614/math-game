@@ -19,7 +19,7 @@ const Result = () => {
                     <li>Doğru Cevap: 0</li>
                     <li>Yanlış Cevap: 0</li>
                 </ul>
-                <Button cls="mt-2" buttonTitle="Başa Dön" />
+                <Button cls="mt-2" buttonTitle="Başa Dön" path="/"/>
             </div>
             <div className="question_results">
                 <div className="result_header_text">
