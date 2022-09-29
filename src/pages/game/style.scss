@@ -34,12 +34,12 @@
       color: #fff;
     }
     .answers {
-      position: relative;
+      position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 60%;
-      height: 50%;
+      height: 40vw;
       .answer {
         cursor: pointer;
         width: 10vw;
@@ -57,19 +57,19 @@
         }
       }
       .answer_A {
-        left: 0%;
-        top: 0%;
-        transform: translate(0%, 0%);
+        left: 70%;
+        top: 40%;
+        transform: translate(-50%, -50%);
       }
       .answer_B {
         right: 0%;
         top: 50%;
-        transform: translate(0%, -50%);
+        transform: translate(80%, 0%);
       }
       .answer_C {
-        left: 15%;
-        bottom: -5%;
-        transform: translate(-15%, 20%);
+        left: 65%;
+        bottom: 0%;
+        transform: translate(0%, 0%);
       }
     }
   }
