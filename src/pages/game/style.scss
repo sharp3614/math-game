@@ -51,7 +51,6 @@
         align-items: center;
         justify-content: center;
         &:hover {
-          transition: all 0.2s;
           color: rgb(123, 118, 118);
           background: url(../../assets/answer_green.svg) no-repeat center;
         }
