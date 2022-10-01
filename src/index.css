@@ -22,6 +22,17 @@ code {
     monospace;
 }
 
-.mt-2{
-  margin-top: 2rem;
+.mt-1{
+  margin-top: 16vh;
+}
+.mt-4{
+  margin-top: 2vh;
+}
+.correct{
+  pointer-events: none;
+  background: #00BF63 !important;
+}
+.worring{
+  pointer-events: none;
+  background: #FA0000 !important;
 }
