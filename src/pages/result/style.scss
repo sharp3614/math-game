@@ -16,6 +16,16 @@
     font-size: 3vw;
     color: #fff;
     list-style: none;
+    li{
+        display: flex;
+        flex-direction: row;
+        span:nth-child(1){
+            width: 95%;
+        }
+        span:nth-child(2){
+            width: 5%;
+        }
+    }
 }
 .question_results{
     display: flex;
